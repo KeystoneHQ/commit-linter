@@ -1,2 +1,2 @@
-wget https://github.com/KeystoneHQ/commit-linter/blob/master/commit-msg | mv .git/hooks
-wget https://github.com/KeystoneHQ/commit-linter/blob/master/commit-msg-linter.js | mv .git/hooks
+curl -o .git/hooks/commit-msg https://raw.githubusercontent.com/KeystoneHQ/commit-linter/master/commit-msg
+curl -o .git/hooks/commit-msg-linter.js https://raw.githubusercontent.com/KeystoneHQ/commit-linter/master/commit-msg-linter.js
